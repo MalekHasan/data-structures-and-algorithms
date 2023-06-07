@@ -10,6 +10,10 @@ Loop statment
 
 ## **Solution**
 
+![Code-Link](https://replit.com/@Malek-SHSH/testing#index.js)
+
+
+
 #### ***function insertShiftArray(arr,value){***
 
  #### ***let arrMidLen=Number.parseInt((arr.length-1)/2);***
