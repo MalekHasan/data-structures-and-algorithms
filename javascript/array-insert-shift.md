@@ -12,13 +12,13 @@ Loop statment
 
 #### ***function insertShiftArray(arr,value){***
 
- #### ***let arrLen=Number.parseInt((arr.length-1)/2);***
- #### ***((arr.length-1)/2) %10!=0?arrLen++:'';***
- #### ***for(let i =arr.length;i>=arrLen;i--)***
+ #### ***let arrMidLen=Number.parseInt((arr.length-1)/2);***
+ #### ***((arr.length-1)/2) %10!=0?arrMidLen++:'';***
+ #### ***for(let i =arr.length;i>=arrMidLen;i--)***
  ####   ***{***
   ####    ***arr[i]=arr[i-1]***
   ####  ***}***
-  #### ***arr[arrLen]=value***
+  #### ***arr[arrMidLen]=value***
  #### ***return arr***
 #### ***}***
 
