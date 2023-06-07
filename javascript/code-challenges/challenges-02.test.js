@@ -234,7 +234,7 @@ const extractStats = (arr) => {
     return {
       "name":element.stat.name ,
       "total":element.effort+element.baseStat,
-    }
+    };
   });
   return newArr;
 };
