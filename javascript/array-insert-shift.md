@@ -10,7 +10,7 @@ Loop statment
 
 ## **Solution**
 
-![Code-Link](https://replit.com/@Malek-SHSH/testing#index.js)
+[Code-Link](https://replit.com/@Malek-SHSH/testing#index.js)
 
 
 
