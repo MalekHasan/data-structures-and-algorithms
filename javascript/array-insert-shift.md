@@ -6,7 +6,6 @@
 
 ## **Approach & Efficiency**
 
-Loop statment
 
 ## **Solution**
 
