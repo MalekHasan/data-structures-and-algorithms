@@ -10,6 +10,7 @@ Improving performance and the Time complexity for the code from O(n) => O(Log n)
 ## **Solution**
 
 [Code-Link](https://replit.com/@Malek-SHSH/binarySearch#index.js)
+[Pull-requests-link](https://github.com/MalekHasan/data-structures-and-algorithms/pulls)
 
 ***Code:***
  ```javascript
