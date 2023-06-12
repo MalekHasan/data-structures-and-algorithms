@@ -2,6 +2,7 @@
 
 ## **Whiteboard Process**
 
+<!-- ![White-Borad](img/LinkedList.png) -->
 ![White-Borad](img/LinkedList.png)
 
 ## **Approach & Efficiency**
