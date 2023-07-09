@@ -4,11 +4,11 @@
 
 ### Stack-White-Borad
 
-![Stack-White-Borad](img/Stack.jpg)
+![Stack-White-Borad](../../img/Stack.jpg)
 
 ### Queue-White-Borad
 
-![Queue-White-Borad](img/Queue.jpg)
+![Queue-White-Borad](../../img/Queue.jpg)
 
 ## **Solution**
 
