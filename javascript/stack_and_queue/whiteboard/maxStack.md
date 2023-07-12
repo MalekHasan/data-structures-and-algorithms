@@ -2,7 +2,7 @@
 
 
 
-### Queue-White-Borad
+### MaxStack-White-Borad
 
 ![maxStack-Borad](../img/maxStack.jpg)
 
