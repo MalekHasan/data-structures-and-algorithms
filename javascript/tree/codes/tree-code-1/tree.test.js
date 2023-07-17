@@ -22,46 +22,37 @@ describe("Binary Tree Testing", () => {
   six.right = seven;
   seven.left = eight;
   seven.right = nine;
-  let bt=new BinaryTree(one);
+  let bt = new BinaryTree(one);
   it("test root of BinaryTree", () => {
     expect(bt.root.value).toEqual(1);
   });
 
   it("test preOrder of BinaryTree", () => {
-    expect(bt.preOrder()).toEqual( [
-      1, 2, 6, 7, 8,
-      9, 3, 4, 5
-    ]);
+    expect(bt.preOrder()).toEqual([1, 2, 6, 7, 8, 9, 3, 4, 5]);
   });
 
   it("test inOrder of BinaryTree", () => {
-    expect(bt.inOrder()).toEqual( [
-      6, 8, 7, 9, 2,
-      1, 4, 3, 5
-    ]);
+    expect(bt.inOrder()).toEqual([6, 8, 7, 9, 2, 1, 4, 3, 5]);
   });
   it("test postOrder of BinaryTree", () => {
-    expect(bt.postOrder()).toEqual( [
-      8, 9, 7, 6, 2,
-      4, 5, 3, 1
-    ]);
+    expect(bt.postOrder()).toEqual([8, 9, 7, 6, 2, 4, 5, 3, 1]);
   });
-
-
 });
 describe("Binary Search Tree Testing", () => {
-
-  let bst=new BST();
+  let bst = new BST();
   it("test root of BinarySearchTree", () => {
     expect(bst.root).toBeNull();
   });
 
-  // it("test preOrder of BinarySearchTree", () => {
-  //   expect(bst.preOrder()).toEqual( [
-  //     1, 2, 6, 7, 8,
-  //     9, 3, 4, 5
-  //   ]);
-  // });
+  it("test preOrder of BinarySearchTree", () => {
+    bst.add(5);
+    bst.add(3);
+    bst.add(6);
+    bst.add(4);
+    bst.add(2);
+    expect(bst.contains(3)).toEqual(true);
+    expect(bst.contains(1)).toEqual(false);
+  });
 
   // it("test inOrder of BinarySearchTree", () => {
   //   expect(bst.inOrder()).toEqual( [
@@ -75,6 +66,4 @@ describe("Binary Search Tree Testing", () => {
   //     4, 5, 3, 1
   //   ]);
   // });
-
-
 });
