@@ -34,6 +34,7 @@ class binaryTree {
     return result;
   }
   maxTree(){
+    if(!this.root)return null;
     let maxNum=this.root.value;
     let traverse = (node) => {
       if (node.value>maxNum)maxNum=node.value;
