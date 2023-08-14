@@ -71,7 +71,12 @@ HR has asked you to change the data to make it easier to print so that it looks 
 
 const updateNumbers = (obj) => {
   // Solution code here...
-
+  const arr=[];
+  let length=Object.keys(obj).length;
+  for(let i=0;i<length;i++ ){
+    arr.push(`${Object.keys(obj)[i]}: ${Object.values(obj)[i]}`)
+  }
+  return arr;
 };
 
 
@@ -79,7 +84,9 @@ const updateNumbers = (obj) => {
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
 
-Write a function named getHouses that returns a new array containing the names of all of the houses in the data set.
+Write a function named getHouses that returns a new array containing the names of all of the houses
+
+in the data set.
 ------------------------------------------------------------------------------------------------ */
 
 const characters = [
@@ -128,13 +135,18 @@ const characters = [
 const getHouses = (arr) => {
   let houses = [];
   // Solution code here...
+  for(const item of arr){
+    houses.push(item.house);
+  }
   return houses;
 };
 
 /*------------------------------------------------------------------------------------------------
 CHALLENGE 6
 
-Write a function named hasChildrenValues that uses Object.values to determine if any given character in the data set has children.
+Write a function named hasChildrenValues that uses Object.values to determine if any given
+
+character in the data set has children.
 
 This function should take in an array of data and a character name and return a Boolean.
 
