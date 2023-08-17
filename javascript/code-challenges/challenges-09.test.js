@@ -84,7 +84,9 @@ const updateNumbers = (obj) => {
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
 
-Write a function named getHouses that returns a new array containing the names of all of the houses
+Write a function named getHouses that returns a new array containing the names of all of the
+
+houses
 
 in the data set.
 ------------------------------------------------------------------------------------------------ */
@@ -157,13 +159,20 @@ hasChildrenValues(characters, 'Sansa') will return false
 
 const hasChildrenValues = (arr, character) => {
   // Solution code here...
-
+  let family=arr.filter(item=>item.name===character);
+  for(const item of Object.values(family[0])){
+    let areChildern=Array.isArray(item);
+    if(areChildern)return true;
+  }
+  return false;
 };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
 
-Write a function named hasChildrenEntries that is similar to your hasChildrenValues function from challenge 4, but uses the data's entries instead of its values.
+Write a function named hasChildrenEntries that is similar to your hasChildrenValues function from
+
+challenge 4, but uses the data's entries instead of its values.
 
 The input and output of this function are the same as the input and output from challenge 3.
 ------------------------------------------------------------------------------------------------ */
