@@ -9,7 +9,7 @@
 
 ## First Half ,First Task
 ### Solution
-[Code-URL](https://replit.com/@Malek-SHSH/SortingComparisons#index.js)
+[Code-URL](https://replit.com/@Malek-SHSH/SortingComparisons-1#index.js)
 
 
 ```javascript
