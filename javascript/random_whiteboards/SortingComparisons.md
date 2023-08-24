@@ -86,7 +86,6 @@ console.log(MergesortForYears(
 
 ```
 
----------------------------------------------
 ***Output***
 
 ```javascript
