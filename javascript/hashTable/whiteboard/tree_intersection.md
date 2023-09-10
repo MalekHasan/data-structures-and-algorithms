@@ -1,4 +1,4 @@
-# hashmap-repeated-word
+# tree_intersection
 
 ## **Whiteboard Process**
 
@@ -7,7 +7,7 @@
 
 ## **Solution**
 
-[hashmap-repeated-word]()
+[tree_intersection]()
 
 ### LinkedList Class Code :
 
